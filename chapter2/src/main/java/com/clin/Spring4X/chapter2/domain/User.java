@@ -56,7 +56,8 @@ public class User implements Serializable {
         return lastVist;
     }
 
-    public void setLastVist(Date lastVist) {
+    public void setLastVisit(Date lastVist) {
         this.lastVist = lastVist;
     }
+
 }
